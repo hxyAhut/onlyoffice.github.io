@@ -1,0 +1,34 @@
+{
+  "name": "测试插件",
+  "nameLocale": {
+    "ru": "test plugin",
+    "fr": "test plugin",
+    "es": "test plugin",
+    "de": "test plugin"
+  },
+  "guid": "asc.{E5773A68-F9B3-4E81-81D9-CE0A132470E7}",
+  "version": "1.0.0",
+  "variations": [
+    {
+      "description": "这只是一个用来测试的插件",
+      "descriptionLocale": {
+        "ru": "test plugin",
+        "fr": "test plugin",
+        "es": "test plugin",
+        "de": "test plugin"
+      },
+      "url": "index.html",
+      "isViewer": true,
+      "EditorsSupport": ["word", "cell", "slide"],
+      "isVisual": true,
+      "isModal": true,
+      "isInsideMode": true,
+      "initDataType": "html",
+      "isUpdateOleOnResize": false,
+      "initOnSelectionChanged": true,
+      "store": {
+        "categories": ["work", "specAbilities"]
+      }
+    }
+  ]
+}
