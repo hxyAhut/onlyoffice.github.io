@@ -19,16 +19,76 @@
       },
       "url": "index.html",
       "isViewer": true,
-      "EditorsSupport": ["word", "cell", "slide"],
+      "EditorsSupport": [
+        "word",
+        "cell",
+        "slide"
+      ],
       "isVisual": true,
-      "isModal": true,
+      "isModal": false,
       "isInsideMode": true,
-      "initDataType": "html",
+      "initDataType": "text",
       "isUpdateOleOnResize": false,
       "initOnSelectionChanged": true,
       "store": {
-        "categories": ["work", "specAbilities"]
-      }
+        "categories": [
+          "work",
+          "specAbilities"
+        ],
+        "background": {
+          "light": "#F5F5F5",
+          "dark": "#444444"
+        },
+        "screenshots": [
+          "resources/detail-fill.png"
+        ],
+        "icons": {
+          "light": "resources",
+          "dark": "resources"
+        }
+      },
+      "icons": [
+        "resources/detail-fill.png",
+        "resources/detail-fill.png"
+      ],
+      "icons2": [
+        {
+          "style": "light",
+          "100%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "125%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "150%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "175%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "200%": {
+            "normal": "resources/detail-fill.png"
+          }
+        },
+        {
+          "style": "dark",
+          "100%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "125%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "150%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "175%": {
+            "normal": "resources/detail-fill.png"
+          },
+          "200%": {
+            "normal": "resources/detail-fill.png"
+          }
+        }
+      ]
     }
   ]
 }

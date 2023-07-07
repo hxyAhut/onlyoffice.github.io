@@ -15,13 +15,25 @@
  * limitations under the License.
  *
  */
-(function(window, undefined){
-
-  window.Asc.plugin.init = function()
-  {
-    window.Asc.plugin.button = function (id) {
-        this.executeCommand("close", '');
-    };
+(function (window, undefined) {
+  var editor;
+  window.Asc.plugin.init = function (text) {
+    
   };
 
+  window.Asc.plugin.button = function (id) {
+    // this.executeCommand("close", "");
+  };
+
+  window.Asc.plugin.onTranslate = function () {
+    // let confirm_btn = document.getElementById("confirm-btn");
+    // if (confirm_btn) confirm_btn.innerHTML = window.Asc.plugin.tr("确定");
+  };
+
+  window.Asc.plugin.onThemeChanged = function (theme) {
+    // window.Asc.plugin.onThemeChangedBase(theme);
+    // if (theme.type.indexOf("dark") !== -1)
+    //   setTimeout(() => editor.setOption("theme", "bespin"));
+    // else setTimeout(() => editor.setOption("theme", "default"));
+  };
 })(window, undefined);
